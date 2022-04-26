@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
     <title>Animated Template</title>
@@ -378,7 +378,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src="./assets/img/team-1-800x800.jpg"
+                src="https://randomuser.me/api/portraits/men/10.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -411,7 +411,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src="./assets/img/team-2-800x800.jpg"
+                src="https://randomuser.me/api/portraits/women/11.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -440,7 +440,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src="./assets/img/team-3-800x800.jpg"
+                src="https://randomuser.me/api/portraits/women/10.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -473,7 +473,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src="./assets/img/team-4-470x470.png"
+                src="https://randomuser.me/api/portraits/women/19.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -766,6 +766,12 @@
   <!-- End of Footer Section -->
 
 </body>
+<!-- AOS.js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
     document.getElementById(collapseID).classList.toggle("hidden");
